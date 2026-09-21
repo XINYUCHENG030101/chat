@@ -1,0 +1,23 @@
+# 本地密钥，不要提交
+/root
+/root.pub
+
+# CMake / 编译产物
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.d
+
+# 示例目录里编出来的无后缀可执行文件
+server/example/discovery
+server/example/registy
+server/example/jsoncpp/main
+server/example/send/test_send
